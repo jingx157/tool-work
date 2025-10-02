@@ -1,0 +1,159 @@
+### Disassembly of TelegramAdder.exe_extracted\pyi_rth_pyqt5.pyc
+
+  0           BINARY_OP                0 (+)
+              CACHE
+              LOAD_FROM_DICT_OR_GLOBALS 0 (_pyi_rthook)
+
+ 67           BEFORE_WITH
+              RAISE_VARARGS            0
+              CALL                     0
+              CACHE
+              CACHE
+              CACHE
+              BEFORE_ASYNC_WITH
+
+ 68           LOAD_GLOBAL              0 (_pyi_rthook)
+
+Disassembly of <code object _pyi_rthook at 0x0000024B553A3F90, file "pyi_rth_pyqt5.py", line 16>:
+ 16            BINARY_OP                0 (+)
+               POP_JUMP_IF_TRUE         0 (to L1)
+       L1:     CACHE
+
+ 18            POP_JUMP_IF_TRUE         1 (to L2)
+               STORE_ATTR               1 (sys)
+               STORE_DEREF              3 (prepend_path_to_environment_variable)
+               CACHE
+               STORE_DEREF              4 (qt_rth_utils)
+               CACHE
+               BEFORE_ASYNC_WITH
+
+ 21            POP_JUMP_IF_TRUE         1 (to L3)
+               STORE_ATTR               2 (_pyi_rth_utils)
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         4 (to L4)
+               CACHE
+               CALL                     1
+               CACHE
+               BEFORE_ASYNC_WITH
+
+ 27            CACHE
+               SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               SET_FUNCTION_ATTRIBUTE   9 (defaults, closure)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         4 (to L5)
+               CALL                     3
+       L5:     CACHE
+               CACHE
+               CACHE
+               CACHE
+
+ 28            CACHE
+               SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CALL                     1
+               CACHE
+               CACHE
+               CACHE
+               SWAP                    33
+
+ 30            CACHE
+               SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               SET_FUNCTION_ATTRIBUTE   9 (defaults, closure)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         4 (to L6)
+               CALL                     3
+       L6:     CACHE
+               CACHE
+               CACHE
+               CACHE
+
+ 32            CACHE
+               SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         7 (to L7)
+               CACHE
+               CALL                     2
+               CACHE
+               CACHE
+       L7:     SET_FUNCTION_ATTRIBUTE  11 (defaults, kwdefaults, closure)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         8 (to L8)
+               CACHE
+
+ 34            CACHE

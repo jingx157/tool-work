@@ -1,0 +1,291 @@
+### Disassembly of TelegramAdder.exe_extracted\pyimod01_archive.pyc
+
+  0            BINARY_OP                0 (+)
+               POP_JUMP_IF_TRUE         1 (to L1)
+               LOAD_FROM_DICT_OR_GLOBALS 0 (os)
+
+ 18    L1:     POP_JUMP_IF_TRUE         0 (to L2)
+       L2:     STORE_ATTR               1 (struct)
+               LOAD_FROM_DICT_OR_GLOBALS 2 (marshal)
+
+ 20            POP_JUMP_IF_TRUE         0 (to L3)
+       L3:     STORE_ATTR               3 (zlib)
+               LOAD_FROM_DICT_OR_GLOBALS 4 (_frozen_importlib)
+
+ 26            RAISE_VARARGS            4
+               SET_FUNCTION_ATTRIBUTE   5 (defaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               SET_FUNCTION_ATTRIBUTE   6 (kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               LOAD_FROM_DICT_OR_GLOBALS 7 (PYTHON_MAGIC_NUMBER)
+
+ 29            POP_JUMP_IF_TRUE         0 (to L4)
+
+ 30    L4:     POP_JUMP_IF_TRUE         2 (to L5)
+
+ 31            POP_JUMP_IF_TRUE         3 (to L6)
+
+ 32    L5:     POP_JUMP_IF_TRUE         4 (to L7)
+
+ 35            BEFORE_WITH
+       L6:     EXTENDED_ARG             0
+               POP_JUMP_IF_TRUE         5 (to L8)
+       L7:     POP_JUMP_IF_TRUE         6 (to L9)
+               CALL                     3
+               CACHE
+               CACHE
+       L9:     CACHE
+               LOAD_FROM_DICT_OR_GLOBALS 13 (ArchiveReadError)
+
+ 39            BEFORE_WITH
+               EXTENDED_ARG             0
+               POP_JUMP_IF_TRUE         7 (to L10)
+               POP_JUMP_IF_TRUE         8 (to L11)
+               CACHE
+               CALL                     2
+      L10:     CACHE
+               LOAD_FROM_DICT_OR_GLOBALS 14 (ZlibArchiveReader)
+               POP_JUMP_IF_TRUE         1 (to L12)
+
+Disassembly of <code object ArchiveReadError at 0x0000024B552D7670, file "pyimod01_archive.py", line 35>:
+ 35           BINARY_OP                0 (+)
+              LOAD_FROM_DICT_OR_GLOBALS 1 (__module__)
+              POP_JUMP_IF_TRUE         0 (to L1)
+
+ 36   L1:     POP_JUMP_IF_TRUE         1 (to L2)
+
+Disassembly of <code object ZlibArchiveReader at 0x0000024B552AD460, file "pyimod01_archive.py", line 39>:
+ 39           BINARY_OP                0 (+)
+              LOAD_FROM_DICT_OR_GLOBALS 1 (__module__)
+              POP_JUMP_IF_TRUE         0 (to L1)
+
+ 40   L1:     POP_JUMP_IF_TRUE         1 (to L2)
+
+ 44           POP_JUMP_IF_TRUE         2 (to L3)
+
+ 46           POP_JUMP_IF_TRUE         8 (to L4)
+      L3:     CACHE
+              LOAD_FROM_DICT_OR_GLOBALS 5 (__init__)
+
+ 79           RAISE_VARARGS            6
+
+ 80           POP_JUMP_IF_TRUE         6 (to L5)
+
+ 79           CALL                     0
+              CACHE
+              CACHE
+      L5:     CACHE
+
+ 80           LOAD_FROM_DICT_OR_GLOBALS 7 (_parse_offset_from_filename)
+
+ 99           POP_JUMP_IF_TRUE         9 (to L7)
+              CACHE
+              LOAD_FROM_DICT_OR_GLOBALS 8 (extract)
+              POP_JUMP_IF_TRUE         3 (to L6)
+
+Disassembly of <code object __init__ at 0x0000024B55402150, file "pyimod01_archive.py", line 46>:
+  46            BINARY_OP                0 (+)
+                CACHE
+                MAP_ADD                  0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  48            CACHE
+                CACHE
+                MAP_ADD                  1
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  50            SET_ADD                  0
+                CACHE
+                MAP_ADD                  2
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  53            CACHE
+                CACHE
+
+  54            CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                LOAD_NAME                2 (toc)
+                CACHE
+                CACHE
+                MAP_ADD                  0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                MAP_ADD                  1
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  59            UNPACK_EX                9
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE   0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         1 (to L1)
+                CACHE
+        L1:     CALL                     2
+                CACHE
+                CALL                     0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE   1 (defaults)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                UNPACK_EX               12
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     2
+                CACHE
+                CACHE
+                CACHE
+                BEFORE_ASYNC_WITH
+
+  63            CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                UNPACK_EX               19
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  10 (kwdefaults, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  64            CACHE
+                CACHE
+                SET_FUNCTION_ATTRIBUTE  10 (kwdefaults, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                SET_UPDATE               3
+                CACHE
+                CACHE
+                STORE_NAME              15 (dict)
+
+  65            UNPACK_EX               23
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         2 (to L3)
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+
+  68            CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                UNPACK_EX               19
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                UNPACK_EX               24
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  69            CACHE

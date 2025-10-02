@@ -1,0 +1,210 @@
+### Disassembly of TelegramAdder.exe_extracted\pyimod04_pywin32.pyc
+
+  0           BINARY_OP                0 (+)
+              LOAD_FROM_DICT_OR_GLOBALS 0 (__doc__)
+
+ 14           POP_JUMP_IF_TRUE         1 (to L1)
+              STORE_ATTR               1 (os)
+              LOAD_FROM_DICT_OR_GLOBALS 2 (sys)
+
+ 18           POP_JUMP_IF_TRUE         3 (to L2)
+              LOAD_FROM_DICT_OR_GLOBALS 3 (install)
+              POP_JUMP_IF_TRUE         2 (to L3)
+
+Disassembly of <code object install at 0x000001EEDF025600, file "pyimod04_pywin32.py", line 18>:
+ 18           BINARY_OP                0 (+)
+              CACHE
+
+ 23           POP_JUMP_IF_TRUE         2 (to L1)
+              CACHE
+              DICT_MERGE               0
+      L1:     CALL                     0
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+
+ 24           POP_JUMP_IF_TRUE         3 (to L2)
+              CACHE
+              DICT_MERGE               0
+              CALL                     0
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+
+ 25           UNPACK_EX                0
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              BINARY_SUBSCR
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CALL                     1
+              CACHE
+              CACHE
+              CACHE
+              BEFORE_ASYNC_WITH
+
+ 28           UNPACK_EX                6
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              BINARY_SUBSCR
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              UNPACK_EX                0
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   5 (defaults, annotations)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              POP_JUMP_IF_TRUE         4 (to L3)
+              CACHE
+              CALL                     2
+              CACHE
+              CACHE
+
+ 30           UNPACK_EX                6
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              BINARY_SUBSCR
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CALL                     1
+              CACHE
+              CACHE
+              CACHE
+              SWAP                     2
+
+ 34           POP_JUMP_IF_TRUE         0 (to L4)
+
+ 42   L4:     UNPACK_EX                0
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              BINARY_SUBSCR
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CALL                     1
+              CACHE
+              CACHE
+              CACHE
+              BEFORE_ASYNC_WITH
+
+ 47           UNPACK_EX                7
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   8 (closure)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CALL                     1
+              CACHE
+              CACHE
+              CACHE
+              BEFORE_ASYNC_WITH
+
+ 51           UNPACK_EX                6
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              SET_FUNCTION_ATTRIBUTE   9 (defaults, closure)
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              BINARY_SUBSCR
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              CACHE
+              POP_JUMP_IF_TRUE         5 (to L5)
+              CALL                     2
+              CACHE
+      L5:     CACHE
+              CACHE
+              CACHE
+
+ 52           CACHE
+              SWAP                     3
+
+ 53           CACHE
+              CACHE

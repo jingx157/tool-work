@@ -1,0 +1,182 @@
+### Disassembly of TelegramAdder.exe_extracted\pyiboot01_bootstrap.pyc
+
+   0            BINARY_OP                0 (+)
+                POP_JUMP_IF_TRUE         1 (to L1)
+                LOAD_FROM_DICT_OR_GLOBALS 0 (sys)
+
+  17    L1:     POP_JUMP_IF_TRUE         0 (to L2)
+        L2:     STORE_ATTR               1 (pyimod02_importers)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                CACHE
+                CACHE
+                CACHE
+                BEFORE_ASYNC_WITH
+
+  25            POP_JUMP_IF_TRUE         0 (to L3)
+        L3:     STORE_ATTR               3 (os)
+                POP_JUMP_IF_TRUE         2 (to L4)
+                CACHE
+                CALL                     2
+                CACHE
+                SWAP                     7
+
+  29            POP_JUMP_IF_TRUE         3 (to L5)
+                MAP_ADD                  5
+                CACHE
+                CACHE
+        L5:     CACHE
+                CACHE
+
+  35            RAISE_VARARGS            0
+                SET_FUNCTION_ATTRIBUTE   6 (kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS            0
+                MAP_ADD                  7
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  36            RAISE_VARARGS            0
+                SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS            0
+                MAP_ADD                  8
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  39            RAISE_VARARGS            0
+                SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS            0
+                MAP_ADD                  9
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  40            RAISE_VARARGS            0
+                SET_FUNCTION_ATTRIBUTE   8 (closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS            0
+                MAP_ADD                 10
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  44            POP_JUMP_IF_TRUE         4 (to L6)
+
+  45            RAISE_VARARGS           11
+                RAISE_VARARGS            3
+                SET_FUNCTION_ATTRIBUTE  12 (annotations, closure)
+                CACHE
+        L6:     CACHE
+                CACHE
+                CACHE
+                YIELD_VALUE              0
+                STORE_NAME              18 (encodings)
+
+  48            POP_JUMP_IF_TRUE         5 (to L7)
+                SET_FUNCTION_ATTRIBUTE  12 (annotations, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+        L7:     RAISE_VARARGS           11
+                CONVERT_VALUE            0
+                CACHE
+
+  49            RAISE_VARARGS            3
+                SET_FUNCTION_ATTRIBUTE  12 (annotations, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS           11
+                COPY                     0
+
+  53            RETURN_CONST             0 (0)
+                LOAD_FROM_DICT_OR_GLOBALS 13 (python_path)
+
+  54            RAISE_VARARGS            0
+                SET_FUNCTION_ATTRIBUTE  14 (kwdefaults, annotations, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                DICT_MERGE               0
+                LOAD_SUPER_ATTR         54 (python_path)
+
+  55            RAISE_VARARGS           13
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS            3
+                SET_FUNCTION_ATTRIBUTE  14 (kwdefaults, annotations, closure)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                RAISE_VARARGS           15
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                BEFORE_ASYNC_WITH
+
+  56            RAISE_VARARGS           13
+                RAISE_VARARGS            0
+                MAP_ADD                 14
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  66            DELETE_SUBSCR
+
+  67    L8:     POP_JUMP_IF_TRUE         0 (to L9)
+        L9:     STORE_ATTR              18 (encodings)
+                RETURN_VALUE
+                STORE_NAME               3 (os)
+                BEFORE_ASYNC_WITH

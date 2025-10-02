@@ -1,0 +1,28 @@
+### Disassembly of TelegramAdder.exe_extracted\pyimod03_ctypes.pyc
+
+   0            BINARY_OP                0 (+)
+                LOAD_FROM_DICT_OR_GLOBALS 0 (__doc__)
+
+  13            POP_JUMP_IF_TRUE         1 (to L1)
+                STORE_ATTR               1 (sys)
+
+ 125            RAISE_VARARGS            1
+                SET_FUNCTION_ATTRIBUTE   3 (defaults, kwdefaults)
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         4 (to L2)
+                CACHE
+                CALL                     1
+                CACHE

@@ -1,0 +1,8 @@
+### Disassembly of TelegramAdder.exe_extracted\struct.pyc
+
+  0           BINARY_OP                0 (+)
+              POP_JUMP_IF_TRUE         0 (to L1)
+      L1:     LOAD_FROM_DICT_OR_GLOBALS 0 (__all__)
+
+ 13           POP_JUMP_IF_TRUE         1 (to L2)
+              STORE_ATTR               1 (_struct)

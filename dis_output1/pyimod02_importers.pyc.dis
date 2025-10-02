@@ -1,0 +1,39 @@
+### Disassembly of TelegramAdder.exe_extracted\pyimod02_importers.pyc
+
+  0            BINARY_OP                0 (+)
+               LOAD_FROM_DICT_OR_GLOBALS 0 (__doc__)
+
+ 20            POP_JUMP_IF_TRUE         1 (to L1)
+               STORE_ATTR               1 (sys)
+               LOAD_FROM_DICT_OR_GLOBALS 2 (os)
+
+ 22            POP_JUMP_IF_TRUE         1 (to L2)
+               STORE_ATTR               3 (io)
+               LOAD_FROM_DICT_OR_GLOBALS 4 (_frozen_importlib)
+
+ 25            POP_JUMP_IF_TRUE         1 (to L3)
+               STORE_ATTR               5 (_thread)
+               LOAD_FROM_DICT_OR_GLOBALS 6 (pyimod01_archive)
+
+ 29            RAISE_VARARGS            1
+               SET_FUNCTION_ATTRIBUTE   7 (defaults, kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               STORE_NAME              11 (_decode_source)
+               RAISE_VARARGS            1
+               SET_FUNCTION_ATTRIBUTE   9 (defaults, closure)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               STORE_NAME               4 (_frozen_importlib)
+
+ 31            POP_JUMP_IF_TRUE         3 (to L4)
+               LOAD_FROM_DICT_OR_GLOBALS 10 (trace)

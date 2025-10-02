@@ -1,0 +1,204 @@
+### Disassembly of TelegramAdder.exe_extracted\pyi_rth_inspect.pyc
+
+  0           BINARY_OP                0 (+)
+              CACHE
+              LOAD_FROM_DICT_OR_GLOBALS 0 (_pyi_rthook)
+
+ 98           BEFORE_WITH
+              RAISE_VARARGS            0
+              CALL                     0
+              CACHE
+              CACHE
+              CACHE
+              BEFORE_ASYNC_WITH
+
+ 99           LOAD_GLOBAL              0 (_pyi_rthook)
+
+Disassembly of <code object _pyi_rthook at 0x000001EEDECCE470, file "pyi_rth_inspect.py", line 13>:
+  --           CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  13           BINARY_OP                0 (+)
+               POP_JUMP_IF_TRUE         0 (to L1)
+       L1:     CACHE
+
+  15           POP_JUMP_IF_TRUE         1 (to L2)
+               STORE_ATTR               1 (os)
+               CACHE
+
+  17           POP_JUMP_IF_TRUE         1 (to L3)
+               STORE_ATTR               3 (zipfile)
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               SET_FUNCTION_ATTRIBUTE   6 (kwdefaults, annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CALL                     1
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  22           CACHE
+               SET_FUNCTION_ATTRIBUTE   4 (annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         2 (to L4)
+               CACHE
+               CALL                     2
+               CACHE
+               CACHE
+
+  25           CACHE
+               CACHE
+               RERAISE                  2
+               POP_JUMP_IF_TRUE         3 (to L5)
+               CACHE
+
+  35           BEFORE_WITH
+               CACHE
+       L5:     CACHE
+               CALL                     1
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  61           CACHE
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  63           CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               RERAISE                  7
+               POP_JUMP_IF_TRUE         4 (to L6)
+               CACHE
+
+  95           CACHE
+               CACHE
+               MAP_ADD                  8
+       L6:     CACHE
+               CACHE
+               CACHE
+               CACHE
+               POP_JUMP_IF_TRUE         0 (to L7)
+
+Disassembly of <code object _get_base_library_files at 0x000001EEDED3A010, file "pyi_rth_inspect.py", line 25>:
+  --            RESUME                   2
+
+  25            BINARY_OP                0 (+)
+                SET_FUNCTION_ATTRIBUTE   0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     1
+                CACHE
+                CACHE
+                CACHE
+                SWAP                    14
+
+  28            UNPACK_EX                5
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                CACHE
+                CACHE
+                CACHE
+                LOAD_CONST               0 (None)
+
+  30            CACHE
+                BINARY_SUBSCR
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                POP_JUMP_IF_TRUE         1 (to L1)
+                CACHE
+        L1:     CALL                     2
+                CACHE
+                CALL                     0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+                CALL                     0
+                CACHE
+                CACHE
+                CACHE
+                CACHE
+
+  30    L3:     POP_JUMP_IF_TRUE         0 (to L4)
+        L4:     POP_JUMP_IF_TRUE         0 (to L5)
+        L5:     CACHE
+                CALL                     2
+                CACHE
+                BEFORE_ASYNC_WITH

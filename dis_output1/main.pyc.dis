@@ -1,0 +1,24 @@
+### Disassembly of TelegramAdder.exe_extracted\main.pyc
+
+   0            BINARY_OP                0 (+)
+                POP_JUMP_IF_TRUE         1 (to L1)
+                LOAD_FROM_DICT_OR_GLOBALS 0 (sys)
+
+   4    L1:     POP_JUMP_IF_TRUE         0 (to L2)
+        L2:     STORE_ATTR               1 (os)
+                LOAD_FROM_DICT_OR_GLOBALS 2 (uuid)
+                POP_JUMP_IF_TRUE         0 (to L3)
+        L3:     STORE_ATTR               3 (hmac)
+                LOAD_FROM_DICT_OR_GLOBALS 4 (hashlib)
+                POP_JUMP_IF_TRUE         0 (to L4)
+        L4:     STORE_ATTR               5 (base64)
+                LOAD_FROM_DICT_OR_GLOBALS 6 (csv)
+                POP_JUMP_IF_TRUE         0 (to L5)
+        L5:     STORE_ATTR               7 (asyncio)
+                LOAD_FROM_DICT_OR_GLOBALS 8 (json)
+                POP_JUMP_IF_TRUE         0 (to L6)
+        L6:     STORE_ATTR               9 (webbrowser)
+                LOAD_FROM_DICT_OR_GLOBALS 10 (requests)
+
+   6            POP_JUMP_IF_TRUE         0 (to L7)
+        L7:     STORE_ATTR              11 (datetime)

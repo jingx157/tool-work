@@ -1,0 +1,91 @@
+### Disassembly of TelegramAdder.exe_extracted\pyi_rth_pkgutil.pyc
+
+  0           BINARY_OP                0 (+)
+              CACHE
+              LOAD_FROM_DICT_OR_GLOBALS 0 (_pyi_rthook)
+
+ 63           BEFORE_WITH
+              RAISE_VARARGS            0
+              CALL                     0
+              CACHE
+              CACHE
+              CACHE
+              BEFORE_ASYNC_WITH
+
+ 64           LOAD_GLOBAL              0 (_pyi_rthook)
+
+Disassembly of <code object _pyi_rthook at 0x000001EEDED5BDF0, file "pyi_rth_pkgutil.py", line 16>:
+  --           CACHE
+               CACHE
+
+  16           BINARY_OP                0 (+)
+               POP_JUMP_IF_TRUE         0 (to L1)
+       L1:     CACHE
+
+  19           POP_JUMP_IF_TRUE         1 (to L2)
+               STORE_ATTR               1 (pyimod02_importers)
+               RERAISE                  2
+               POP_JUMP_IF_TRUE         3 (to L3)
+               CACHE
+
+  57           CACHE
+               SET_FUNCTION_ATTRIBUTE   2 (kwdefaults)
+       L3:     CACHE
+               CACHE
+               CACHE
+               CACHE
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  58           CACHE
+               SET_FUNCTION_ATTRIBUTE   4 (annotations)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  59           CACHE
+
+  57           CALL                     2
+               CACHE
+               CACHE
+               CACHE
+               BEFORE_ASYNC_WITH
+               POP_JUMP_IF_TRUE         0 (to L4)
+
+Disassembly of <code object _iter_pyi_frozen_finder_modules at 0x000001EEDF062170, file "pyi_rth_pkgutil.py", line 24>:
+  --           RESUME                   2
+
+  24           IMPORT_NAME              0 (get_pyz_toc_tree)
+               BEFORE_ASYNC_WITH
+               BINARY_OP                0 (+)
+               BINARY_SUBSCR
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+               CALL                     0
+               CACHE
+               CACHE
+               CACHE
+               CACHE
+
+  30           CACHE
+               SET_FUNCTION_ATTRIBUTE   1 (defaults)
+               CACHE
+               CACHE
+               CACHE
+               CACHE
