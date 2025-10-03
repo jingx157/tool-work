@@ -13,3 +13,6 @@ function makeToken(machineId) {
 }
 
 console.log(makeToken("962650882122")); // change machine_id here
+
+
+// eyJleHBpcmVzX2F0IjogIjIwMjYtMDktMDJUMTQ6MDU6NDYuMzI3MjkxIiwgIm1hY2hpbmVfaWQiOiAiNTM0NDcxNjE2NDk5MzcifW6A5Zo3vG-dkE1dvO4jkCp5epbOvZ855ve4yr93f3p4
