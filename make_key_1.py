@@ -18,8 +18,8 @@ def decode_token(token: str):
 
 if __name__ == "__main__":
     # Example: just change machine_id in the raw payload
-    # raw_payload = '{"expires_at": "2026-09-02T14:05:46.327291", "machine_id": "962650882122"}'
-    raw_payload = '{"expires_at": "2025-10-03T06:10:46.327291", "machine_id": "962650882122"}'
+    raw_payload = '{"expires_at": "2026-09-02", "machine_id": "962650882122"}'
+    # raw_payload = '{"expires_at": "2025-10-03T06:10:46.327291", "machine_id": "962650882122"}'
     token = make_token(raw_payload)
     print("Generated Token:\n", token)
 
